@@ -1,0 +1,38 @@
+*{
+  box-sizing:border-box;
+}
+body {
+  width: 80%;
+  margin: 40px;
+   padding: 10px;
+}
+
+h1{
+  background-color: green;
+  border: 20px;
+  padding: 10px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  background-color: lightgreen;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input:focus{
+  background-color: #ddd;
+  border: none;
+}
+
+.submitbtn{
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 51px;
+  background-color: green;
+  color: white;
+}
+.submitbtn:hover{
+  opacity: 0.5;
+}
